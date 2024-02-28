@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CafeDevCode.Database.Entities
 {
-    internal class Categoru
+    internal class Category
     {
     }
 }
