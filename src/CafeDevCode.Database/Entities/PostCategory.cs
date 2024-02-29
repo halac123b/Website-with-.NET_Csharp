@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace CafeDevCode.Database.Entities
 {
-    internal class PostCategory
+    public class PostCategory: BaseEntity
     {
+        public int Id { get; set; }
+        public int? CategoryId { get; set; }
+        public int? PostId { get; set; }
     }
 }

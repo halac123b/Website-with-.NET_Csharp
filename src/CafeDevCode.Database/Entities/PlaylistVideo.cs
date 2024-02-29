@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace CafeDevCode.Database.Entities
 {
-    public class PostTag : BaseEntity
+    public class PlaylistVideo: BaseEntity
     {
         public int Id { get; set; }
-        public int? TagId { get; set; }
-        public int? PostId { get; set; }
+        public int? PlaylistId { get; set; }
+        public int? VideoId { get; set; }
     }
 }
