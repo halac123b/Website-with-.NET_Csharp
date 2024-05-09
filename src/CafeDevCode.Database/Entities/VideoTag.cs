@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace CafeDevCode.Database.Entities
 {
-    public class PostType
+    internal class VideoTag: BaseEntity
     {
         public int Id { get; set; }
-        public string? Name { get; set; } = string.Empty;
+        public int VideoId { get; set; }
+        public int TagId { get; set; }
     }
 }
