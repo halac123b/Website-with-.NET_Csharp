@@ -1,8 +1,8 @@
 ﻿namespace CafeDevCode.Database.Configurations
 {
-    internal class PostRelatedConfiguration : IEntityTypeConfiguration<PostRelated>
+    internal class SitePageConfiguration : IEntityTypeConfiguration<SitePage>
     {
-        public void Configure(EntityTypeBuilder<PostRelated> builder)
+        public void Configure(EntityTypeBuilder<SitePage> builder)
         {
             // Xác định property Id là property của entity
             builder.HasKey(x => x.Id);
@@ -11,3 +11,4 @@
         }
     }
 }
+

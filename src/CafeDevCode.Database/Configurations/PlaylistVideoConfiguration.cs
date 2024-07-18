@@ -1,8 +1,8 @@
 ﻿namespace CafeDevCode.Database.Configurations
 {
-    internal class PostRelatedConfiguration : IEntityTypeConfiguration<PostRelated>
+    internal class PlaylistVideoConfiguration : IEntityTypeConfiguration<PlaylistVideo>
     {
-        public void Configure(EntityTypeBuilder<PostRelated> builder)
+        public void Configure(EntityTypeBuilder<PlaylistVideo> builder)
         {
             // Xác định property Id là property của entity
             builder.HasKey(x => x.Id);
