@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace CafeDevCode.Common.Shared.Model
+﻿namespace CafeDevCode.Common.Shared.Model
 {
     /// <summary>
     /// Contain date about update (User, time)
