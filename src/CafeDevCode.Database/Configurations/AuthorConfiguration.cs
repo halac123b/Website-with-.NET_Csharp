@@ -4,6 +4,7 @@ global using CafeDevCode.Database.Entities;
 
 namespace CafeDevCode.Database.Configurations
 {
+    // IEntityTypeConfiguration: class chứa các config cho từng Entity
     internal class AuthorConfiguration : IEntityTypeConfiguration<Author>
     {
         public void Configure(EntityTypeBuilder<Author> builder)
